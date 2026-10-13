@@ -1,0 +1,14 @@
+特征工程网格扫参 (LR C=100), 基线: max_features=5000, ngram=(1,1) -> 0.9189
+
+max_features= 15000 ngram=(1, 1) | 验证集 0.9320 | 用时    4s
+max_features= 20000 ngram=(1, 1) | 验证集 0.9320 | 用时    5s
+max_features= 30000 ngram=(1, 1) | 验证集 0.9349 | 用时    5s
+max_features= 30000 ngram=(1, 2) | 验证集 0.9335 | 用时   10s
+
+=== 按准确率排序 ===
+  0.9349  max_features= 30000 ngram=(1, 1)
+  0.9335  max_features= 30000 ngram=(1, 2)
+  0.9320  max_features= 15000 ngram=(1, 1)
+  0.9320  max_features= 20000 ngram=(1, 1)
+
+全部完成
