@@ -46,9 +46,7 @@ python main.py        # 一步到位: 从原始 CSV 清洗 -> 训练 -> 生成 p
 | `实验报告.md` | 正式实验报告（约 2 页 PDF 量，引 figures/ 图表） |
 | `实验报告.docx` | Word 版报告（build_docx.py 生成，图 3/4 并排排版） |
 | `build_docx.py` | Word 报告生成脚本（FIG_W 字典可调图片大小控制页数） |
-| `学习文档.md` | 原理讲解文档（每个步骤为什么这么做） |
 | `train_data.csv` / `test_data_unlabeled.csv` | 原始数据（未改动） |
-| `train_cleaned.csv` / `test_cleaned.csv` | 清洗后数据（preprocess.py 生成） |
 
 ## 最终配置（锁定过程见 实验决策记录.md）
 
